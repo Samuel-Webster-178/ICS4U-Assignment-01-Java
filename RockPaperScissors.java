@@ -72,7 +72,7 @@ final class RockPaperScissors {
         } else if (userInputString.equals(choices[2])) {
             output = rockPaperScissors(2, computerChoice);
         } else {
-            output = "Invalid input.";
+            output = "entered invalid input";
         }
         System.out.println(
             "You played " + userInputString + " and the computer played "
